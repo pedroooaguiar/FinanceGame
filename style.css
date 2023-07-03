@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 5vw;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3vw;
+  left: 0;
+  right: 0;
+  height: 0.1vw;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 3vw;
+  margin-top: 10vw;
+  color: #fff;
+}
+
+div form {
+  font-size: 2.5vw;
+  margin-bottom: 6px;
+  color: #fff;
+  margin-top: 1.5vw;
+  width: 30vw;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  margin-left: 10vw;
+}
+
+h5 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5vw; 
+}
+
+h4 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 2.7vw; 
+  margin-top: 3.5vw;
+  text-align: center;
+}
+
+ul {
+  margin-top: 3.5vw;
+  font-size: 2vw; 
+}
+
+form {
+  float: left;
+  width: 70%;
+}
+
+.login-image {
+  position: relative;
+  float: right;
+  width: 3vw;
+  height: 3vw;
+  margin-top: 4.5vw;
+  right: 7.5vw;
+}
+
+.menu {
+  position: relative;
+  float: right;
+  width: 4vw;
+  height: 4vw;
+  margin-top: 4vw;
+  right: 10vw;
+}
+
+div.box1 {
+  margin-top: 17vw;
+  margin-left: 7vw;
+  width: 25vw;
+  height: 10vw;
+  border-radius: 7px;
+  border: 1px solid #666;
+  padding: 1vw;
+  background-color: yellow;
+  text-align: center;
+}
+
+div.box1 h3, h2 {
+  color: #000;
+  margin-top: 0.5vw;
+  font-size: 2.2vw;
+}
+
+div.box2 {
+  margin-top: -10vw;
+  margin-left: 37vw;
+  width: 25vw;
+  height: 10vw;
+  border-radius: 7px;
+  border: 1px solid #666;
+  padding: 1vw;
+  background-color: green;
+  text-align: center;
+}
+
+div.box2 h3, h2 {
+  color: #000;
+  margin-top: 0.5vw;
+  font-size: 2.2vw;
+}
+
+div.box3 {
+  margin-top: -10vw;
+  margin-left: 67vw;
+  width: 25vw;
+  height: 10vw;
+  border-radius: 10px;
+  border: 1px solid #666;
+  padding: 1vw;
+  background-color: red;
+  text-align: center;
+}
+
+div.box3 h3, h2 {
+  color: #000;
+  margin-top: 0.5vw;
+  font-size: 2.2vw; 
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 10vw;
+}
+
+table td {
+  border: 1px solid #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+table td span {
+  display: block;
+  font-size: 10px;
+  color: #fff;
+}
+
+
+
+@media (max-width: 600px) {
+  .menu{
+    float: none;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+  }
+  .login-image{
+    display: inline-block;
+    margin-right: 120px;
+    position: relative;
+  }
+
+  div.box1,
+  div.box2,
+  div.box3 {
+    margin-top: 30px;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  div.box1 p,
+  div.box2 p,
+  div.box3 p {
+    font-size: 2.8vw; 
+    text-align: center; 
+  }
+}
+
+@media (max-width: 416px) {
+  .menu{
+    float: none;
+    display: inline-block;
+    margin-left: 17.5vw;
+    position: fixed;
+  }
+  .login-image{
+    display: inline-block;
+    margin-right: 15.5vw;
+    position: fixed;
+  }
+  div.box1,
+  div.box2,
+  div.box3 {
+    margin-top: 80px;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
